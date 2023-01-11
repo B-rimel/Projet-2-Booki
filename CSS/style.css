@@ -5,10 +5,19 @@
     font-family: 'Raleway';
 }
 
-/*Cette marge sert à décoller le contenu du site du bord de l'écran*/
-    header {
-    margin-left: 55px;
-    }
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+body {
+    max-width: 1400px;
+    margin: auto;
+}
 
 header img {
     max-height: 33px;
@@ -16,11 +25,26 @@ header img {
 
 /* Flexbox sert ici à mettre "Hébergement" et "Activités" à droite de la page*/
 
-.menu {
+.tag-div {
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
+
 }
 
+.menu {
+    display: flex;
+    width: 324px;
+
+}
+
+.link {
+    flex: 1;
+    text-align: center;
+}
+
+.link:hover {
+    border-top: 2px #0065FC solid;
+}
 /* Ce code servira à faire en sorte que les liens, même cliqués, soient en noir par défaut */
 
 a {
@@ -42,9 +66,7 @@ color: #0065FC;
 
 /*Cette marge sert à décoller le contenu du site du bord de l'écran*/
 
-nav {
-    margin-left: 55px;
-}
+
 
 /* Cette section s'occupe de la barre de recherche */
 
@@ -63,7 +85,7 @@ nav {
 
 .search-form input {
     width: 100%;
-    height: 100%;
+    height: 49px;
     box-sizing: border-box;
     border: none;
     justify-content: center;
@@ -95,7 +117,6 @@ nav {
     color: black;
     padding: 10px 10px;
     margin: 20px;
-    margin-left: 0px;
     font-weight: 700;
 }
 
