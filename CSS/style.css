@@ -151,14 +151,7 @@ color: #0065FC;
 }
 
 main {
-    border-radius: 20px;
-    background-color: #F2F2F2;
-    margin-left: 50px;
-    margin-right: 40px;
-    padding-left: 40px;
-    padding-top: 42px;
-    width: 880px;
-    height: 626px;
+    margin:auto;
 }
 
 h3 {
@@ -168,6 +161,23 @@ h3 {
 
 main p {
     font-size: 14px;
+}
+
+main {
+    display: flex;
+    margin: auto;
+}
+
+.hebergement {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 60%;
+}
+
+.populaire {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 30%;
 }
 
 
@@ -202,4 +212,32 @@ main img {
 .grille-populaire {
     display: flex;
     flex-direction: column;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+}
+
+article img {
+    box-sizing: border-box;
+    height: 400px;
+    width: 302px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+}
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+ul {
+    list-style: none;
 }
