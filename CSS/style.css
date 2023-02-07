@@ -17,6 +17,8 @@ html {
 body {
     max-width: 1400px;
     margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header img {
@@ -150,9 +152,6 @@ color: #0065FC;
     text-align: center;
 }
 
-main {
-    margin:auto;
-}
 
 h3 {
     font-size: 16px;
@@ -236,7 +235,7 @@ footer nav{
     justify-content: space-evenly;
     padding-left: 10%;
     padding-right: 10%;
-}
+    }
 
 ul {
     list-style: none;
