@@ -40,10 +40,12 @@ header img {
 .link {
     flex: 1;
     text-align: center;
+    padding-top: 50px;
 }
 
 .link:hover {
     border-top: 2px #0065FC solid;
+    padding-top: 48px;
 }
 /* Ce code servira à faire en sorte que les liens, même cliqués, soient en noir par défaut */
 
@@ -69,8 +71,23 @@ color: #0065FC;
 
 
 /* Cette section s'occupe de la barre de recherche */
+form {
+    display: flex;
+    height: 50px;
+}
 
-.search-icon {
+form div {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+form div i {
+    margin: auto;
+}
+/* .search-icon {
     background: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
@@ -103,7 +120,7 @@ color: #0065FC;
     border: none;
     border-radius: 0px 15px 15px 0px;
     padding-inline: 20px;
-}
+} */
 
 /* Cette section s'occupe des filtres */
 .filtres {
@@ -228,6 +245,7 @@ article img {
     width: 100%;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 article a {
