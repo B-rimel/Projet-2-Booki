@@ -87,40 +87,19 @@ form div {
 form div i {
     margin: auto;
 }
-/* .search-icon {
-    background: #F2F2F2;
-    border: 1px solid #F2F2F2;
-    border-radius: 15px 0px 0px 15px;
-    padding-inline: 20px;
+form input {
+    border: 1px solid;
+    color:#F2F2F2;
 }
-
-.search-form {
-    border: 1px solid #F2F2F2;
-    width: 332px;
-    height: 49px;
-}
-
-.search-form input {
-    width: 100%;
-    height: 49px;
-    box-sizing: border-box;
-    border: none;
-    justify-content: center;
-    color:black;
-}
-
-.search-form ::placeholder {
-    font-weight: bold;
-    color: black;
-}
-
-.search-button {
-    background: #0065FC;
+form button {
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
     color: white;
     border: none;
-    border-radius: 0px 15px 15px 0px;
-    padding-inline: 20px;
-} */
+    padding : 0px 20px;
+    font-weight: 200;
+}
+
 
 /* Cette section s'occupe des filtres */
 .filtres {
@@ -206,6 +185,7 @@ main img {
     width: 246px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 /*Mise en place de la grille des hébergements*/
@@ -219,18 +199,46 @@ main img {
 
 .hebergement-marseille {
     
-    width: 246px;
-    height: 199px;
+    width: auto;
+    height: auto;
     background-color: white;
     border-radius: 20px;
-    text-align: center;
 }
 
-.grille-populaire {
+.populaire {
+    width: 30%;
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
 }
 
+.carte-populaire {
+    display: flex;
+    background-color: white;
+    width: 90%;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.image-populaire {
+    width: 40%;
+}
+
+.contenu-populaire {
+    width: 60%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.image-populaire img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.notation-populaire {
+    margin-top: 20%;
+}
 article {
     display: flex;
     justify-content: space-around;
@@ -258,4 +266,12 @@ footer nav{
 
 ul {
     list-style: none;
+}
+
+.bleu {
+    color:#0065FC;
+}
+
+.gris {
+    color: #F2F2F2;
 }
