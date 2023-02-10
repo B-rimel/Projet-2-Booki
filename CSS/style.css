@@ -21,6 +21,7 @@ body {
 
 header img {
     max-height: 33px;
+    margin-top: 48px;
 }
 
 /* Flexbox sert ici à mettre "Hébergement" et "Activités" à droite de la page*/
@@ -106,6 +107,10 @@ form button {
     display: flex;
     flex-direction: row ;
     align-items: flex-start;
+}
+
+.filtres i {
+    padding-right: 10px;
 }
 
 .texte-filtre {
@@ -195,6 +200,7 @@ main img {
     grid-template-columns: 246px 246px 246px;
     gap: 30px;
     margin-bottom: 40px;
+    justify-content: center;
 }
 
 .hebergement-marseille {
@@ -205,6 +211,9 @@ main img {
     border-radius: 20px;
 }
 
+.texte-hebergement-marseille {
+    margin: 5px;
+}
 .populaire {
     width: 30%;
     display: flex;
