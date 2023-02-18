@@ -108,15 +108,14 @@ form button {
 /* Cette section s'occupe des filtres */
 .filtres {
     display: flex;
-    flex-direction: row ;
-    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .filtres i {
     margin-right: 10px;
     font-size: 22px;
     width: 22px;
-    color: blue;
+    color: #0065FC;
 }
 
 .fa-money-bill-wave {
@@ -137,22 +136,21 @@ form button {
 .texte-filtre {
     color: black;
     padding: 10px 10px;
-    margin: 20px;
+    /* margin: 20px; */
     font-weight: 700;
 }
 
 .bouton-filtre {
-    display: flex;
     color: black;
     height: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     border: 2px solid #D9D9D9;
     border-radius: 40px;
+    font-size: 17px;
     font-weight: 700;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 
@@ -264,9 +262,7 @@ main img {
     margin-bottom: 7px;
 }
 
-.carte-populaire p {
-    margin-bottom: 63px;
-}
+
 
 .image-populaire {
     width: 40%;
@@ -276,7 +272,12 @@ main img {
     width: 60%;
     margin-left: 5px;
     margin-bottom: 5px;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    
 }
+
 
 .image-populaire img {
     width: 100%;
@@ -285,11 +286,15 @@ main img {
 }
 
 .notation-populaire {
-    margin-top: 20%;
+    /* position: absolute;
+    bottom: 0px; */
+    margin-top: auto;
+    margin-bottom: 12px;
+    font-size: 12px;
 }
 article {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 article img {
