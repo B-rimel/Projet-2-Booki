@@ -52,6 +52,7 @@ header img {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
