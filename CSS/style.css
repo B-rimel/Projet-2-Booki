@@ -262,22 +262,7 @@ main img {
     height: 170px;
 }
 
-@media screen and (max-width: 992px) {
 
-    main {
-        flex-wrap: wrap;
-    }
-    .populaire {
-        width: 100%;
-        flex-direction: row;
-    }
-
-    .hebergement {
-        width: 100%;
-        margin-bottom: 49px;
-    }
-
-}  
 
 .carte-populaire h3 {
     margin-bottom: 7px;
@@ -367,4 +352,33 @@ li {
 
 .gris {
     color: #F2F2F2;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 992px) {
+
+    main {
+        flex-wrap: wrap;
+    }
+    .populaire {
+        width: 100%;
+        flex-direction: row;
+        margin: 0%;
+    }
+
+    .hebergement {
+        width: 100%;
+        margin-bottom: 49px;
+    }
+
+    .container-carte-populaire {
+        flex-wrap: wrap;
+    }
+
+}  
+
+
+@media screen and (max-width: 798px) {
+
 }
