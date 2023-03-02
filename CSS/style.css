@@ -110,7 +110,7 @@ form button {
 /* Cette section s'occupe des filtres */
 .filtres {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .filtres i {
@@ -182,9 +182,9 @@ main p {
     font-size: 14px;
 }
 
-main {
+/* main {
     display: flex;
-}
+} */
 
 .hebergement {
     background-color: #F2F2F2;
@@ -392,5 +392,37 @@ li {
 
 
 @media screen and (max-width: 798px) {
+    body {
+        margin: none;
+    }
 
+    .grille-marseille {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    .hebergement {
+        background-color: white;
+    }
+
+    .populaire {
+        border-radius: 0px;
+    }
+
+    .container-carte-populaire {
+        flex-direction: column;
+    }
+
+    .container-carte-populaire a {
+        width: 100%;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article a {
+        width: 100%;
+    }
 }
