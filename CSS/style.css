@@ -370,6 +370,9 @@ li {
         flex-wrap: wrap; 
     }
 
+    .container-bouton-filtre {
+        margin: auto;
+    }
     .bouton-filtre {
         font-size: 80%;
     }
@@ -414,6 +417,8 @@ li {
 
     .logo-booki {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .logo-booki img {
