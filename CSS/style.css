@@ -400,6 +400,10 @@ li {
         margin-bottom: 49px;
     }
 
+    .article a {
+        height: 267px;
+        width: 40%;
+    }
 
 
 }  
