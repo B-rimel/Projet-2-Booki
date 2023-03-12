@@ -321,13 +321,13 @@ article img {
 }
 
 article a {
-    width: 20%;
-    height: 364px;
+    width: 24%;
     margin-bottom: 61px;
 }
 .activite-marseille {
     border-radius: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    height: 364px;
 }
 
 .activite-marseille h3 {
@@ -339,15 +339,14 @@ footer
 {
     background-color: #F2F2F2;
 }
-footer nav{
+.liste-footer {
     display: flex;
     justify-content: space-evenly;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 ul {
     list-style: none;
+    padding: 0px;
 }
 
 li {
@@ -400,11 +399,11 @@ li {
         margin-bottom: 49px;
     }
 
-    .article a {
-        height: 267px;
-        width: 40%;
-    }
 
+
+        .activite-marseille {
+            height: 267px;
+        }
 
 }  
 
