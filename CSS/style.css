@@ -97,6 +97,11 @@ form input {
     color:black;
     font-weight: 700;
 }
+
+form input::placeholder {
+    font-weight: bold;
+    padding-left: 5px;
+}
 form button {
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
@@ -145,6 +150,7 @@ form button {
 .container-bouton-filtre {
     display: flex;
     justify-content: flex-start;
+    margin: auto;
 }
 .bouton-filtre {
     display: flex;
