@@ -143,6 +143,7 @@ form button {
 }
 
 .container-bouton-filtre {
+    margin: auto;
     display: flex;
     justify-content: flex-start;
 }
@@ -339,11 +340,10 @@ footer
 {
     background-color: #F2F2F2;
 }
-footer nav{
+
+.liens-footer {
     display: flex;
-    justify-content: space-evenly;
-    padding-left: 10%;
-    padding-right: 10%;
+    justify-content: space-evenly
 }
 
 ul {
@@ -374,7 +374,8 @@ li {
         margin: auto;
     }
     .bouton-filtre {
-        font-size: 80%;
+        width: 100%;
+        font-size: 100%;
     }
 
     .container-carte-populaire {
@@ -393,6 +394,7 @@ li {
     }
     .head-populaire {
         width: 100%;
+        padding-left: 18px;
     }
 
     .hebergement {
