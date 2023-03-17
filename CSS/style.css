@@ -348,16 +348,18 @@ article a {
 
 .activite-marseille {
     height: 444px;
+    width: 23%;
 }
 
 .image-activite-marseille {
-    height: 90%;
+    height: 85%;
 }
 .image-activite-marseille img {
     height: 100%;
 }
 .texte-activite-marseille {
-    height: 10%;
+    height: 15%;
+    padding-left: 5px;
 }
 footer
 {
