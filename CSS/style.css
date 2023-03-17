@@ -235,14 +235,31 @@ main img {
 .hebergement-marseille {
     
     width: auto;
-    height: 100%;
+    height: 199px;
     background-color: white;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);  
     border-radius: 20px;
 }
 
+.image-hebergement-marseille {
+    height: 60%;
+}
+
+.image-hebergement-marseille img {
+    height: 100%;
+}
 .texte-hebergement-marseille {
-    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    padding: 4px 0 11px 11px;
+}
+
+.texte-hebergement-marseille * {
+    margin: 0px;
+}
+.notation-hebergement-marseille {
+    margin-top: auto;
 }
 
 .head-populaire {
@@ -268,7 +285,7 @@ main img {
     margin-bottom: 33px;  
     border-radius: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
-    height: 170px;
+    height: 150px;
 }
 
 
@@ -284,16 +301,16 @@ main img {
 }
 
 .contenu-populaire {
-    width: 60%;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    /* position: relative; */
+    width: 60%;    
     display: flex;
     flex-direction: column;
-    
+    padding: 16px 22px 12px 15px;
 }
 
-
+.contenu-populaire * {
+    margin: 0;
+    /* font-size: 90%; */
+}
 .image-populaire img {
     width: 100%;
     height: 100%;
@@ -301,12 +318,10 @@ main img {
 }
 
 .notation-populaire {
-    /* position: absolute;
-    bottom: 0px; */
     margin-top: auto;
-    margin-bottom: 12px;
     font-size: 12px;
 }
+
 article {
     display: flex;
     justify-content: space-between;
@@ -331,11 +346,19 @@ article a {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
-.activite-marseille h3 {
-    padding-left: 20px;
-    padding-bottom: 20px;
+.activite-marseille {
+    height: 444px;
 }
 
+.image-activite-marseille {
+    height: 90%;
+}
+.image-activite-marseille img {
+    height: 100%;
+}
+.texte-activite-marseille {
+    height: 10%;
+}
 footer
 {
     background-color: #F2F2F2;
@@ -471,6 +494,13 @@ li {
         background-color: white;
         order: 1;
     }
+
+    .hebergement-marseille {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 200px;
+    }
+
 
     .populaire {
         border-radius: 0px;
