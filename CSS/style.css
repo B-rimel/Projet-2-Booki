@@ -144,12 +144,11 @@ form button {
 
 .container-bouton-filtre {
     display: flex;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     width: 100%;
 }
 .bouton-filtre {
     display: flex;
-    justify-content: space-between;
     color: black;
     height: 50px;
     padding-left: 20px;
@@ -160,6 +159,7 @@ form button {
     border-radius: 40px;
     font-size: 17px;
     font-weight: 700;
+    margin-right: 2%;
 }
 
 
@@ -491,12 +491,13 @@ li {
         flex-wrap: wrap;
         justify-content: space-around;
         justify-content: center;
+        margin: auto;
     }
 
     .bouton-filtre {
-        width: 43%;
-        margin-bottom: 43px;
-        margin-right: 0px;
+        width: 40%;
+        justify-content: center;
+        margin-bottom: 17px;
     }
     body {
         margin: 0px;
@@ -525,6 +526,7 @@ li {
 
     .container-carte-populaire {
         flex-direction: column;
+        width: 100%;
     }
 
     .container-carte-populaire a {
@@ -536,7 +538,8 @@ li {
         flex-direction: column;
     }
 
-    article a {
+    .activite-marseille {
+        height: 190px;
         width: 100%;
     }
 }
