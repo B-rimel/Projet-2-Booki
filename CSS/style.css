@@ -477,7 +477,18 @@ li {
 
     .link {
         width: 50%;
+        padding-bottom:  20px;
+        border-bottom: 2px #F2F2F2 solid;
+
     }
+
+
+    .link:hover {
+        border-bottom: 2px #0065FC solid;
+        padding-bottom: 20px;
+    }
+
+
     .filtres {
         flex-wrap: wrap;
     }
@@ -519,7 +530,9 @@ li {
         height: 200px;
     }
 
-
+    section h2 {
+        padding-left: 40px;
+    }
     .populaire {
         border-radius: 0px;
     }
