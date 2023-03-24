@@ -144,17 +144,15 @@ form button {
 
 .container-bouton-filtre {
     display: flex;
-    /* justify-content:space-between; */
     width: 100%;
 }
 .bouton-filtre {
     display: flex;
     color: black;
     height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; */
     border: 2px solid #D9D9D9;
     border-radius: 40px;
     font-size: 17px;
@@ -168,7 +166,12 @@ form button {
     background-color: #DEEBFF;
 }
 
-
+.bouton-filtre * {
+    display: flex;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 .fa-info {
     color: #0065FC;
@@ -507,9 +510,17 @@ li {
 
     .bouton-filtre {
         width: 40%;
-        justify-content: center;
+        justify-content: flex-start;
         margin-bottom: 17px;
+        font-size: 90%;
     }
+
+    .bouton-filtre * {
+        margin: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
     body {
         margin: 0px;
     }
@@ -553,6 +564,11 @@ li {
 
     .activite-marseille {
         height: 190px;
-        width: 100%;
+        width: auto;
+        margin: 0 20px 0 20px;
+    }
+
+    .liens-footer {
+        flex-direction: column;
     }
 }
