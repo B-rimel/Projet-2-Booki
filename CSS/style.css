@@ -46,6 +46,7 @@ header img {
 
 .link:hover {
     border-top: 2px #0065FC solid;
+    color: #0065FC;
     padding-top: 48px;
 }
 /* Ce code servira à faire en sorte que les liens, même cliqués, soient en noir par défaut */
