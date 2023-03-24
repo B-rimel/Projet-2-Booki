@@ -79,6 +79,11 @@ form {
     margin-bottom: 32px;
 }
 
+form ::placeholder {
+    padding: 5px;
+    color: black;
+}
+
 form div {
     display: flex;
     height: 50px;
