@@ -409,6 +409,16 @@ li {
         padding: 0px;
     }
 
+    .link {
+        justify-content: end;
+        text-align: end;
+    }
+
+    .link:hover {
+        border: none;
+        padding-top: 50px;
+    }
+
     .icone-desktop {
         display: none;
     }
@@ -503,9 +513,14 @@ li {
 
 
     .link:hover {
+        border: none;
         border-bottom: 2px #0065FC solid;
-        padding-bottom: 20px;
-    }
+        padding-top: 50px;
+        }
+
+        form {
+            justify-content: center;
+        }
 
 
     .filtres {
@@ -583,6 +598,11 @@ li {
         height: 190px;
         width: auto;
         margin: 0 20px 0 20px;
+        margin-bottom: 24px;
+    }
+
+    .afficher-plus {
+        display: none;
     }
 
     .liens-footer {
