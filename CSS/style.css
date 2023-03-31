@@ -15,10 +15,9 @@ html {
 }
 
 body {
+  width: 100%;
   max-width: 1400px;
-  margin-left: 2%;
-  margin-right: 2%;
-  justify-content: center;
+  margin: auto;
 }
 
 header img {
@@ -251,6 +250,7 @@ main img {
 .texte-hebergement-marseille {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 40%;
   padding: 4px 0 11px 11px;
 }
@@ -427,8 +427,8 @@ li {
   }
 
   .bouton-filtre {
-    width: auto;
-    padding: 0 1% 0 1%;
+    padding: 0 2% 0 2%;
+    font-size: 90%;
   }
 
   .populaire {
