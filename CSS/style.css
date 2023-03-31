@@ -18,6 +18,7 @@ body {
   max-width: 1400px;
   margin-left: 2%;
   margin-right: 2%;
+  justify-content: center;
 }
 
 header img {
@@ -201,11 +202,10 @@ main {
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 70%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.hebergement h2 {
-  padding-left: 40px;
-}
 .populaire {
   background-color: #f2f2f2;
   border-radius: 20px;
@@ -227,7 +227,7 @@ main img {
 
 .grille-marseille {
   display: grid;
-  grid-template-columns: 28% 28% 28%;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-bottom: 40px;
   justify-content: center;
@@ -266,7 +266,6 @@ main img {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 26px;
 }
 .populaire {
   width: 30%;
@@ -346,9 +345,6 @@ article a {
 .activite-marseille {
   border-radius: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
-}
-
-.activite-marseille {
   height: 444px;
   width: 23%;
 }
@@ -367,7 +363,7 @@ article a {
 
 .texte-activite-marseille h3 {
   margin: 0;
-  padding: 20px 26px 21px 19px;
+  padding: 20px 0px 21px 19px;
 
 }
 footer {
@@ -402,7 +398,7 @@ li {
 
 /* Media queries */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) and (min-width: 768px) {
   main {
     flex-wrap: wrap;
   }
@@ -419,14 +415,6 @@ li {
   .link:hover {
     border: none;
     padding-top: 50px;
-  }
-
-  .icone-desktop {
-    display: none;
-  }
-
-  .icone-mobile {
-    display: block;
   }
 
   .container-bouton-filtre {
@@ -457,6 +445,10 @@ li {
     padding-left: 18px;
   }
 
+  .head-populaire h2 {
+    margin-bottom: 26px;
+  }
+
   .hebergement {
     width: 100%;
     margin-bottom: 49px;
@@ -481,12 +473,28 @@ li {
 }
 
 @media screen and (max-width: 768px) {
+
+  main {
+    flex-wrap: wrap;
+  }
   .tag-div {
     flex-wrap: wrap;
   }
 
   nav {
     justify-content: center;
+  }
+
+  header, nav, section {
+    padding: 0 2%;
+  }
+
+  .icone-desktop {
+    display: none;
+  }
+
+  .icone-mobile {
+    display: block;
   }
 
   .logo-booki {
@@ -544,9 +552,6 @@ li {
   }
 
   .bouton-filtre * {
-    margin: 0;
-    margin-top: auto;
-    margin-bottom: auto;
   }
 
   body {
@@ -559,20 +564,17 @@ li {
     background-color: white;
   }
   .hebergement {
+    width: 100%;
     background-color: white;
     order: 1;
+    padding: 0;
+    padding: 0 2%;
   }
 
-  .hebergement-marseille {
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 200px;
-  }
 
-  section h2 {
-    padding-left: 40px;
-  }
   .populaire {
+    margin: 0;
+    width: 100%;
     border-radius: 0px;
   }
 
@@ -593,10 +595,16 @@ li {
   .activite-marseille {
     height: 190px;
     width: auto;
-    margin: 0 20px 0 20px;
     margin-bottom: 24px;
   }
+   .image-activite-marseille {
+    height: 134px;
+   }
 
+   .texte-activite-marseille {
+    height: 56px;
+   }
+   
   .afficher-plus {
     display: none;
   }
