@@ -373,6 +373,7 @@ article a {
 }
 footer {
     padding-top: 45px;
+    padding-left: 30px;
     background-color: #f2f2f2;
 }
 
@@ -479,6 +480,9 @@ li {
 
 @media screen and (max-width: 768px) {
 
+ body {
+      padding: 0;
+    }
   main {
     flex-wrap: wrap;
   }
@@ -490,8 +494,8 @@ li {
     justify-content: center;
   }
 
-  header, nav, section {
-    padding: 0 2%;
+ .nav-recherche, header {
+    padding: 0 15px;
   }
 
   .icone-desktop {
@@ -543,20 +547,19 @@ li {
   .container-bouton-filtre {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    justify-content: center;
-    margin: auto;
+    justify-content: space-between;
+  }
+  .filtres  i {
+    margin-right: 5px;
   }
 
   .bouton-filtre {
-    width: 40%;
-    padding: 19px 23px 18px 13px;
+    width: 48%;
     justify-content: flex-start;
+    padding: 19px 8px 18px 13px;
+    margin: 0;
     margin-bottom: 17px;
     font-size: 11px;
-  }
-
-  .bouton-filtre * {
   }
 
   body {
