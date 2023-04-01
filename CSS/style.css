@@ -318,7 +318,7 @@ main img {
   font-size: 12px;
 }
 
-.notation-hebergement-marseille {
+.notation-hebergement {
   font-size: 12;
 }
 
@@ -494,7 +494,7 @@ li {
     justify-content: center;
   }
 
- .nav-recherche, header {
+ .nav-recherche header {
     padding: 0 15px;
   }
 
