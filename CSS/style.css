@@ -319,7 +319,7 @@ main img {
 }
 
 .notation-hebergement {
-  font-size: 12;
+  font-size: 12px;
 }
 
 section {
@@ -391,9 +391,6 @@ li {
   margin-bottom: 12px;
 }
 
-.fa-star {
-    font-weight: 12px;
-}
 .bleu {
   color: #0065fc;
 }
@@ -409,9 +406,6 @@ li {
     flex-wrap: wrap;
   }
 
-  .nav-recherche {
-    padding: 0px;
-  }
 
   .link {
     justify-content: end;
@@ -492,11 +486,11 @@ li {
 
   nav {
     justify-content: center;
-  }
-
- .nav-recherche header {
+    margin-top: 63px;
     padding: 0 15px;
   }
+
+
 
   .icone-desktop {
     display: none;
@@ -600,6 +594,9 @@ li {
     flex-direction: column;
   }
 
+  section {
+    padding: 0 2%;
+  }
   .activite-marseille {
     height: 190px;
     width: auto;
