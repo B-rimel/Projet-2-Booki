@@ -34,7 +34,9 @@ h1, h2 {
 .tag-div {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 63px;
 }
+
 
 .menu {
   display: flex;
@@ -406,6 +408,9 @@ li {
     flex-wrap: wrap;
   }
 
+  .nav-recherche {
+    padding: 0px;
+  }
 
   .link {
     justify-content: end;
@@ -482,15 +487,16 @@ li {
   }
   .tag-div {
     flex-wrap: wrap;
+    padding-bottom: 30px;
   }
 
   nav {
     justify-content: center;
-    margin-top: 63px;
-    padding: 0 15px;
   }
 
-
+ .nav-recherche {
+    padding: 0 15px;
+  }
 
   .icone-desktop {
     display: none;
